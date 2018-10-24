@@ -4,4 +4,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="empty_subscriptions_list">Empty subscriptions list.\nСlick add to select user</string>
+    <string name="enter_user_login">Pleas, enter user login\n from GitHub.com:</string>
+    <string name="btn_cancel">cancel</string>
+    <string name="btn_load">load</string>
+    <string name="username">Username</string>
 </resources>

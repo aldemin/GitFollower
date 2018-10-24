@@ -19,6 +19,7 @@ public class GitUser {
     @SerializedName("avatar_url")
     @Expose
     private String avatarUrl;
+    private String lastUpdate;
 
     private List<GitRepository> repositories;
 
@@ -52,6 +53,14 @@ public class GitUser {
 
     public void setAvatarUrl(String avatarUrl) {
         this.avatarUrl = avatarUrl;
+    }
+
+    public String getLastUpdate() {
+        return lastUpdate;
+    }
+
+    public void setLastUpdate(String lastUpdate) {
+        this.lastUpdate = lastUpdate;
     }
 
     public List<GitRepository> getRepositories() {
